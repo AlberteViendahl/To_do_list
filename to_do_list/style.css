@@ -1,4 +1,4 @@
-/* ------sektion12------ */
+/* -------------sektion12---------------------- */
 section{
     background-color: #eceae0;
     height: 600px;
@@ -26,6 +26,8 @@ h1{
     width: 300px;
 }
 
+
+/* -----------------icons----------------------------- */
 .heart:hover{
 background-image: url(./svg/filled_heart.svg);
 }
@@ -33,4 +35,26 @@ background-image: url(./svg/filled_heart.svg);
 .heart{
     width: 90px;
 height: 90px;
+}
+
+/* -------------add a new thing---------------------- */
+.add{
+margin-top: 20px;
+}
+
+input{
+    width: 250px;
+    border-color: #f5cede;
+}
+
+button{
+    background-color: #f5cede;
+    border-color: #f5cede;
+    border-radius: 24px;
+    height: 25px;
+    width: 50px;
+}
+
+button:hover{
+    background-color: #f0a0cc;
 }
