@@ -1,0 +1,27 @@
+/* ------sektion12------ */
+section{
+    background-color: #eceae0;
+    height: 600px;
+    width: 430px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: solid;
+    border-color:#f0a0cc ;
+}
+
+h1, p{
+    color: #593310;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.border{
+    background-color: #f0a0cc;
+    height: 2px;
+    width: 300px;
+}
