@@ -25,3 +25,12 @@ h1{
     height: 2px;
     width: 300px;
 }
+
+.heart:hover{
+background-image: url(./svg/filled_heart.svg);
+}
+
+.heart{
+    width: 90px;
+height: 90px;
+}
