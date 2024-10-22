@@ -28,9 +28,9 @@ h1{
 
 
 /* -----------------icons----------------------------- */
-li:hover{
+/* li:hover{
 list-style-image: url(./svg/filled_heart.svg);
-}
+} */
 
 
 /* -------------add a new thing---------------------- */
@@ -69,6 +69,15 @@ button:hover{
 
 /* -------Prikken------- */
 
-li{
+/* li{
     list-style-image: url(./svg/empty_heart.svg);
-}
+} */
+
+li:hover{
+    list-style-image: none;
+  }
+  
+  li{
+    list-style-image: none;
+    list-style-type: none; /* Fjern den oprindelige punktopstilling */
+  }
