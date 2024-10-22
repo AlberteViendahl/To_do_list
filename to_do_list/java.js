@@ -4,7 +4,7 @@ const ulTodo = document.querySelector("#todos");
 const inputTodo = document.querySelector("#todo");
 const button = document.querySelector("button");
 
-const model = ["Husk at ring til mormor", "Vasketøj", "Køb ind til lørdag"];
+const model = ["Husk at ring til mormor"];
 init();
 
 function init() {
