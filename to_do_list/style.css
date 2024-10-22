@@ -28,10 +28,14 @@ h1{
 
 
 /* -----------------icons----------------------------- */
-/* li:hover{
-list-style-image: url(./svg/filled_heart.svg);
-} */
+.heart:hover{
+background-image: url(./svg/filled_heart.svg);
+}
 
+.heart{
+width: 30px;
+height: 30px;
+}
 
 /* -------------add a new thing---------------------- */
 .add{
@@ -65,19 +69,10 @@ button:hover{
     text-decoration: line-through;
 }
 
+ul{
+    list-style: none;
+}
 
-
-/* -------Prikken------- */
-
-/* li{
-    list-style-image: url(./svg/empty_heart.svg);
-} */
-
-li:hover{
-    list-style-image: none;
-  }
-  
-  li{
-    list-style-image: none;
-    list-style-type: none; /* Fjern den oprindelige punktopstilling */
-  }
+#todos:hover{
+    text-decoration: line-through;
+}
