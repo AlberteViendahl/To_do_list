@@ -28,7 +28,7 @@ h1{
 
 
 /* -----------------icons----------------------------- */
-.heart:hover{
+li:hover{
 background-image: url(./svg/filled_heart.svg);
 }
 
@@ -67,4 +67,12 @@ button:hover{
 
 .delete_task:hover{
     text-decoration: line-through;
+}
+
+
+
+/* -------Prikken------- */
+
+li{
+    list-style-image: url(./svg/empty_heart.svg);
 }
