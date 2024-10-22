@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="java.js"></script>
     <title>To Do</title>
-</head>
-<body>
-    
-   
+  </head>
+  <body>
     <section class="section">
-        <div>
-            <h1>To Do List</h1>
-            <div class="border"></div>
-            <div class="add">
-                <input placeholder="Add a new to do" type="text">
-                <button>Add</button>
-                        </div>
-      
-      
+      <div>
+        <h1>To Do List</h1>
+        <div class="border"></div>
+        <div class="add">
+          <input placeholder="Add a new to do" type="text" />
+          <button>Add</button>
+        </div>
+
         <div class="todo">
-
+          <h1>To do</h1>
+          <div class="flex" id="task">
+            <img src="./svg/empty_heart.svg" alt="hjerte" class="heart" />
+            <h2 class="delete_task">Oprydning</h2>
+          </div>
+          <div class="flex" id="task">
+            <img src="./svg/empty_heart.svg" alt="hjerte" class="heart" />
+            <h2>Snack time</h2>
+          </div>
         </div>
 
-        <div class="complete">
-
+        <div class="complete" id="completed-section">
+          <h1>Completed tasks</h1>
         </div>
-        <img src="./svg/empty_heart.svg" alt="hjerte" class="heart">
-    </div>
+      </div>
     </section>
-</body>
+    <script src="/complete.js"></script>
+    <script src="/delete_task.js"></script>
+  </body>
 </html>
