@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="java.js"></script>
     <title>To Do</title>
   </head>
   <body>
@@ -13,8 +12,9 @@
         <h1>To Do List</h1>
         <div class="border"></div>
         <div class="add">
-          <input placeholder="Add a new to do" type="text" />
-          <button>Add</button>
+            <input type="text" id="todo" todo="todo" placeholder="Add a new to do">
+            <button>Add</button>
+            <ul id="todos"></ul>
         </div>
 
         <div class="todo">
@@ -36,5 +36,6 @@
     </section>
     <script src="/complete.js"></script>
     <script src="/delete_task.js"></script>
+    <script src="java.js"></script>
   </body>
 </html>
