@@ -29,13 +29,9 @@ h1{
 
 /* -----------------icons----------------------------- */
 li:hover{
-background-image: url(./svg/filled_heart.svg);
+list-style-image: url(./svg/filled_heart.svg);
 }
 
-.heart{
-width: 30px;
-height: 30px;
-}
 
 /* -------------add a new thing---------------------- */
 .add{
