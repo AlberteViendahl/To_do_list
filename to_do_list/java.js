@@ -78,17 +78,6 @@ function updateView() {
   });
 }
 
-function button_click() {
-  const newTodo = inputTodo.value.trim(); 
-  if (newTodo) {
-    addTodoToModel(newTodo);
-    inputTodo.value = "";
-    updateView();
-  } else {
-    alert("Please enter a task!");
-  }
-}
-
 function klikspan(evt) {
   const id = evt.target.closest("li").dataset.id;
   removeTodoFromModel(id);
