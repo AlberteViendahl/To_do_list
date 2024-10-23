@@ -48,8 +48,8 @@ function updateView() {
   todoModel.forEach((task, i) => {
     ulTodo.innerHTML += `
       <li class="clicktodo flex" data-id="${i}">
+              <img src="./svg/empty_heart.svg" alt="hjerte" class="heart" />
         <span>${task}</span>
-        <img src="./svg/empty_heart.svg" alt="hjerte" class="heart" />
       </li>
     `;
   });
