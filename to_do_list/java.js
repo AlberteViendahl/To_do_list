@@ -83,3 +83,12 @@ function klikspan(evt) {
   removeTodoFromModel(id);
   updateView();
 }
+
+function button_click() {
+  const newTodo = inputTodo.value.trim(); 
+  if (newTodo) {
+    addTodoToModel(newTodo);
+    inputTodo.value = "";
+    updateView();
+  }
+}
