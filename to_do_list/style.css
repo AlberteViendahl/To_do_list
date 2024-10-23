@@ -63,7 +63,7 @@ button:hover{
 .flex{
     display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: start;
 }
 
 .delete_task:hover{
@@ -78,4 +78,6 @@ li span:hover {
     text-decoration: line-through;
   }
 
-  
+.indd{
+    margin-left: 39px;
+}

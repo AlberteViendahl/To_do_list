@@ -5,7 +5,7 @@ const inputTodo = document.querySelector("#todo");
 const button = document.querySelector("button");
 const completedSection = document.getElementById("completed-section");
 
-const todoModel = ["Husk at ringe til mormor"]; // To-do tasks
+const todoModel = ["Husk at ringe til mormor"]; 
 const completedModel = []; 
 
 init();
