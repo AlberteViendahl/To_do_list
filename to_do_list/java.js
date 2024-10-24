@@ -54,7 +54,7 @@ function updateView() {
     `;
   });
 
-  completedSection.innerHTML = `<h1>Completed tasks</h1>`;
+  completedSection.innerHTML = `<h1></h1>`;
   completedModel.forEach((task, i) => {
     completedSection.innerHTML += `
       <li class="flex" data-id="${i}"><img src="./svg/filled_heart.svg" alt="hjerte" class="heart" /><span>${task}</span></li>
